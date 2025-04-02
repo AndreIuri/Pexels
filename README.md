@@ -59,3 +59,5 @@ npm run dev
 To start the Laravel development server, run in another terminal:
 
 php artisan serve
+
+After that, open browser with the following url http://127.0.0.1:8000/
