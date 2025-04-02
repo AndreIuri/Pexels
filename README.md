@@ -54,7 +54,7 @@ This will create a new APP_KEY in your .env file, allowing Laravel to handle enc
 
 To start the React development server, run in one terminal:
 
-npm start
+npm run dev
 
 To start the Laravel development server, run in another terminal:
 
