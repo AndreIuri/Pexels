@@ -1,5 +1,5 @@
 # Pexels
-This project lists videos using the Pexels API. It uses Laravel for the backend, React for the frontend, and HTML/CSS for styling.
+This project lists videos using the Pexels API. It uses Laravel for the backend, React for the frontend, and HTML/CSS for styling. The project was created using Vite build tool.
 
 # Project Requirements
 Laravel version: 5.11
