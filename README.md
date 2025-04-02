@@ -14,14 +14,21 @@ Follow these steps to set up the project locally:
 
 ## Install PHP dependencies (Laravel)
 Navigate to the Pexels/pexels-project directory and run:
+
 'composer install'
 
 This will install the necessary PHP dependencies, including the vendor/ folder.
+
 If Composer prompts for an authentication token, it means you need a GitHub Personal Access Token for private repositories or to avoid rate limits when accessing public GitHub packages.
+
 You can create the auth.json file globally to store authentication information for all projects on your machine, like GitHub tokens or credentials for private repositories.
+
 Location of this file: Linux/macOS: ~/.composer/auth.json or Windows: C:\Users\<YourName>\AppData\Roaming\Composer\auth.json. If this file doenst exist you can create it in this location.
+
 Also you can create auth.json file inside the project and post your personal access token that can be consulted here 'https://github.com/settings/tokens'
+
 Example:
+
 {
   "github-oauth": {
     "github.com": "your-personal-access-token"
@@ -32,10 +39,13 @@ The .env file is required to configure environment variables. Copy the content f
 
 ## Install Node dependencies (React)
 In the project directory, run:
+
 npm install
 
 This will install the necessary Node.js dependencies needed for the React frontend.
+
 If the command prompts you with an encryption key error like "No application encryption key has been specified", run the following Laravel command to generate a key:
+
 php artisan key:generate
 
 This will create a new APP_KEY in your .env file, allowing Laravel to handle encryption.
@@ -43,7 +53,9 @@ This will create a new APP_KEY in your .env file, allowing Laravel to handle enc
 # Run project
 
 To start the React development server, run in one terminal:
+
 npm start
 
 To start the Laravel development server, run in another terminal:
+
 php artisan serve
